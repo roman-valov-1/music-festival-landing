@@ -123,21 +123,23 @@
     .header-icons ul li{
         margin-top: 10px;
     }
+    .header-icons ul li:first-child{
+        margin-left: 0px;
+    }
+    .header-content{
+        text-align: center;
+    }
     .header-content_title{
         font-size: 40px;
-        padding-right: 30px;
-        padding-left: 60px;
     }
     .header-content_subtitle{
         font-size: 16px;
         margin-bottom: 120px;
-        padding-right: 30px;
-        padding-left: 60px;
     }
     .header-content_button{
         font-size: 14px;
         padding: 10px 20px 10px 20px;
-        margin-left: 60px;
+        
     }
 }
 
@@ -1257,12 +1259,13 @@
 @media (max-width: 575px){
     .location{
         min-height: 568px;
+        max-height: 600px;
         padding-bottom: 10px;
     }
     .location-about{
         width: 300px;
         height: 160px;
-        margin-top: 300px;
+        margin-top: 320px;
         border-radius: 5px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -1286,12 +1289,13 @@
 @media (min-width: 576px) and (max-width: 767px){
     .location{
         min-height: 568px;
+        max-height: 700px;
         padding-bottom: 10px;
     }
     .location-about{
         width: 500px;
         height: 160px;
-        margin-top: 300px;
+        margin-top: 350px;
         border-radius: 5px;
         padding-top: 10px;
         padding-bottom: 10px;
